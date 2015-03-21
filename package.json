@@ -1,0 +1,28 @@
+{
+  "name": "KoaWebStarterKit",
+  "version": "1.0.0",
+  "description": "Simple Web Starter Kit using Koa, Bootstrap, Sass. Inspired in Google Web Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nico.racing.99@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^0.18.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmontesdeoca/KoaWebStarterKit.git"
+  },
+  "keywords": [
+    "Koa",
+    "Bootstrap",
+    "WebStarterKit"
+  ],
+  "bugs": {
+    "url": "https://github.com/nmontesdeoca/KoaWebStarterKit/issues"
+  },
+  "homepage": "https://github.com/nmontesdeoca/KoaWebStarterKit"
+}
