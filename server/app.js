@@ -1,4 +1,5 @@
 var koa = require('koa'),
+    route = require('./routes'),
     app = koa();
 
 app.use(function * (next) {
@@ -12,12 +13,6 @@ app.use(function * (next) {
     console.log('%s %s - %s', this.method, this.url, ms);
 });
 
-app.use(function * (next) {
-    'use strict';
-
-    this.body = 'Hello World';
-    yield next;
-});
-
+route(app);
 
 module.exports = app;

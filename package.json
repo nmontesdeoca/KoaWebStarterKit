@@ -1,28 +1,35 @@
 {
-    "name": "KoaWebStarterKit",
-    "version": "1.0.0",
-    "description": "Simple Web Starter Kit using Koa, Bootstrap, Sass. Inspired in Google Web Starter Kit",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "nico.racing.99@gmail.com",
-    "license": "MIT",
-    "dependencies": {
-        "koa": "^0.18.1"
-    },
-    "devDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/nmontesdeoca/KoaWebStarterKit.git"
-    },
-    "keywords": [
-        "Koa",
-        "Bootstrap",
-        "WebStarterKit"
-    ],
-    "bugs": {
-        "url": "https://github.com/nmontesdeoca/KoaWebStarterKit/issues"
-    },
-    "homepage": "https://github.com/nmontesdeoca/KoaWebStarterKit"
+  "name": "KoaWebStarterKit",
+  "version": "1.0.0",
+  "description": "Simple Web Starter Kit using Koa, Bootstrap, Sass. Inspired in Google Web Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Montesdeoca <nico.racing.99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "co-views": "^0.3.0",
+    "ejs": "^2.3.1",
+    "koa": "^0.18.1",
+    "koa-route": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nmontesdeoca/KoaWebStarterKit.git"
+  },
+  "keywords": [
+    "Koa",
+    "Bootstrap",
+    "WebStarterKit"
+  ],
+  "bugs": {
+    "url": "https://github.com/nmontesdeoca/KoaWebStarterKit/issues"
+  },
+  "homepage": "https://github.com/nmontesdeoca/KoaWebStarterKit"
 }
